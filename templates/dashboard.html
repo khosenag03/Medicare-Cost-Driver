@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../static/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Health Care Analysis</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/css/test.css?v=2.0.0 " rel="stylesheet" />
+   
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-image="../static/img/MEDCOSTS.jpg">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">
+                        Medicare
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a class="nav-link" href="/">
+                            <i class="nc-icon nc-caps-small"></i>
+                            <p>INFO</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/video">
+                            <i class="nc-icon nc-button-play"></i>
+                            <p>Video</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/maps">
+                                <i class="nc-icon nc-map-big"></i>
+                            <p>Maps</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/barchart">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="nc-icon nc-chart-bar-32"></i>
+                            <p>Bar Charts</p>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/drugcost">US DRUG COST</a>
+                            <a class="dropdown-item" href="/insulins">INSULIN GLARGINE</a>
+                            <a class="dropdown-item" href="/tiotropium">TIOTROPIUM</a>
+                            <a class="dropdown-item" href="/esomerprazole">ESOMERPRAZOLE</a>
+                            <a class="dropdown-item" href="/rouvastatin">ROSUVASTATIN</a>
+                            <a class="dropdown-item" href="/hydroco">HYDROCODONE</a>
+                            <div class="divider"></div>
+                            <a class="dropdown-item" href="/opioids">OPIOID</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/code">
+                            <i class="nc-icon nc-settings-gear-64"></i>
+                            <p>CODE</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg " color-on-scroll="500">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#pablo"> Dashboard </a>
+                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <!--<li class="nav-item">
+                                <a class="nav-link" href="#pablo">
+                                    <span class="no-icon">Log out</span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Medicare At a Glance<br><br>
+                                        <p>
+                                            Medicare is the federal health insurance program created in 1965 for people ages 65 and over, regardless of income, medical history, or health status. The program was expanded in 1972 to cover certain people under age 65 who have a long-term disability. <br> 
+                                            <br>Today, Medicare plays a key role in providing health and financial security to 60 million older people and younger people with disabilities. The program helps to pay for many medical care services, including hospitalizations, physician visits, prescription drugs, preventive services, skilled nursing facility and home health care, and hospice care. <br><br> In 2017, Medicare spending accounted for 15 percent of total federal spending and 20 percent of total national health spending.
+                                            Most people ages 65 and over are entitled to Medicare Part A if they or their spouse are eligible for Social Security payments, and do not have to pay a premium for Part A if they paid payroll taxes for 10 or more years. People under age 65 who receive Social Security Disability Insurance (SSDI) payments generally become eligible for Medicare after a two-year waiting period, while those diagnosed with end-stage renal disease (ESRD) and amyotrophic lateral sclerosis (ALS) become eligible for Medicare with no waiting period.
+                                        </p>
+                                    </h2>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Healthcare Crisis<br><br>
+                                        <p>
+                                            The cost of treating each individual Medicare beneficiary has been growing faster than our gross domestic product, or GDP.  That cannot continue indefinitely.  But the problem is compounded because the Medicare beneficiary population is growing faster than the population at large, and is likely to continue to do so indefinitely – and at a rapid rate for the next quarter century or so.  In sum (or perhaps “in product,” because the two unsustainable rates of growth are in effect multiplied by each other), the math simply doesn’t work.
+                                        </p>
+                                    </h2>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Healthcare Cost Drivers</h2> 
+                                    <h4>Poorly coordinated, inefficient care delivery</h4>
+                                        <p>
+                                            <font color="darkblue">Care Delivery Inefficient care delivery is another key driver of U.S. underperformance on health care costs and quality.</font>  <br><br>The U.S. may not be an outlier compared to other countries in rates of utilization of most services, but a significant proportion of U.S. health spending remains attributable to inefficient delivery of health care services. 36 Direct Public Subsidies for Waste Waste and inefficient health care delivery has been attributed to the United States’ reliance on fee-for-service provider reimbursement across payers both public and private. 37 FFS reimbursement does have value in certain circumstances. It can serve to expand the quantity of services or goods furnished to patients. Nonetheless, is a point where further increasing the volume of services or drugs for any individual is not the optimal treatment. At this point, FFS’ incentives for ever-increasing volume generate additional costs to families, employers and taxpayers, with sub-optimal or no benefit to patients. <strong> In fact, FFS can actually harm patients as a result of over-prescription of drugs, unnecessary tests, or avoidable hospitalizations.</strong> In this way, FFS actively drives waste in the health care system in the United States.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                <div class="card-footer ">
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="now-ui-icons loader_refresh spin"></i> Updated 3 minutes ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">
+                                    Email
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Phone
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    GitHub
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-center">
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>
+                            <a href="http://www.creative-tim.com">Nikita & Mason</a>, UR Data Analytics Bootcamp
+                        </p>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+<!--   Core JS Files   -->
+<script src="../static/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../static/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../static/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../static/js/plugins/bootstrap-switch.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!--  Chartist Plugin  -->
+<script src="../static/js/plugins/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="../static/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+<script src="../static/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Javascript method's body can be found in static/js/demos.js
+        demo.initDashboardPageCharts();
+
+        demo.showNotification();
+
+    });
+</script>
+
+</html>
